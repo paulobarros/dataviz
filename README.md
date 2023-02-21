@@ -9,12 +9,6 @@ Here you will find some of my data visualizations projects. All the code found h
 
 </div>
 
-<div align="center">
-<!-- badges: start -->
-[![pix](https://img.shields.io/badge/Apoie%20com-PIX-brightgreen)](https://nubank.com.br/pagar/v67wv/tuh5iRS2YJ)
-<!-- badges: end -->
-</div>
-
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 <!-- badges: start -->
