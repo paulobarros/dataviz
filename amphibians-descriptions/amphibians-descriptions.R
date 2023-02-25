@@ -18,6 +18,13 @@ sp_desc <- amphibiansBR %>%
   mutate(year_desc = str_extract(author, "[0-9]{4}") %>% as.numeric(),
          decade = paste0(floor(year_desc/10)*10, "s")) # %>%
   #filter(year_desc >= 1761 & year_desc <=2020 )
+
+sp_desc %>%
+  arrange(family, year_desc) %>%
+  group_by(family) %>%
+  reframe(diff_years = (lead(year_desc)-year_desc)+1) %>%
+  group_by(family) %>%
+  reframe(median_year = median(diff_years, na.rm = T))
   
 desc_mean_time <- sp_desc %>%
   group_by(family) %>%
@@ -59,7 +66,7 @@ ggplot() +
                 label.r = unit(0,"lines"),
              label.padding = unit(0.2,"lines")) +
   geom_label(data = desc_mean_time,
-             aes(x = avg_year_desc, y = fct_rev(fct_inorder(sp_order)), label = first ),
+             aes(x = avg_year_desc, y = fct_rev(fct_inorder(sp_order)), label = last ),
              family = "Barlow Condensed Medium",
              size = 6,
              fill = "#5DBDD3",
@@ -70,12 +77,12 @@ ggplot() +
              label.r = unit(0,"lines"),
              label.padding = unit(0.2,"lines")) +
   geom_rect(
-    aes(xmin=25, xmax=50, ymin = 2.5, ymax = 3.5),
+    aes(xmin=25, xmax=50, ymin = 5.5, ymax = 6.5),
     fill = alpha("#E4D4C8",.5),
     color = alpha("#D0B49F",1)
   )+
   geom_richtext(#data = desc_mean_time,
-    aes(x = 21.5, y = 3, label = "Total de espécies<br>descritas na família"),
+    aes(x = 21.5, y = 6, label = "Total de espécies<br>descritas na família"),
     family = "Barlow Condensed Medium",
     size = 4,
     fill = "black",
@@ -84,9 +91,10 @@ ggplot() +
     hjust = 1,
     vjust = 0.5,
     label.r = unit(0,"lines"),
-    label.padding = unit(0.3,"lines")) +
+    label.padding = unit(0.3,"lines"),
+    label.colour = NA) +
   geom_richtext(#data = desc_mean_time,
-             aes(x = 25, y = 3, label = "Descrição da primeira<br>espécie na família" ),
+             aes(x = 25, y = 6, label = "Descrição da primeira<br>espécie na família" ),
              family = "Barlow Condensed Medium",
              size = 4,
              fill = "#F3CC3C",
@@ -95,10 +103,11 @@ ggplot() +
              hjust = 0.5,
              vjust = 0.5,
              label.r = unit(0,"lines"),
-             label.padding = unit(0.3,"lines")) +
+             label.padding = unit(0.3,"lines"),
+             label.colour = NA) +
   geom_richtext(
     #data = desc_mean_time,
-    aes(x = 50, y = 3, label = "Descrição da espécie<br>mais recente na família"),
+    aes(x = 50, y = 6, label = "Descrição da espécie<br>mais recente na família"),
     family = "Barlow Condensed Medium",
     size = 4,
     fill = "#5DBDD3",
@@ -107,11 +116,12 @@ ggplot() +
     vjust = 0.5,
     hjust = 0.5,
     label.r = unit(0,"lines"),
-    label.padding = unit(0.3,"lines")
+    label.padding = unit(0.3,"lines"),
+    label.colour = NA
   ) +
   geom_richtext(
     #data = desc_mean_time,
-    aes(x = 37.5, y = 3, label = "Tempo médio em anos entre descrições de espécies na família"),
+    aes(x = 37.5, y = 6, label = "Tempo médio em anos entre descrições de espécies na família"),
     family = "Barlow Condensed Medium",
     size = 4.5,
     fill = NA,
@@ -120,9 +130,23 @@ ggplot() +
     vjust = 0.5,
     hjust = 0.5,
     label.r = unit(0,"lines"),
-    label.padding = unit(0.3,"lines")
+    label.padding = unit(0.3,"lines"),
+    label.colour = NA
   ) +
-  #annotate("text", x = 32.5, y = 3, label = "")+
+  
+  geom_richtext(
+    aes(x = 25, y = 14, label = "Quanto tempo tem...?"),
+    family = "COCOGOOSE",
+    size = 12,
+    fill = NA,
+    label.size = 0,
+    color = "black",
+    vjust = 0.5,
+    hjust = 0,
+    label.r = unit(0,"lines"),
+    label.padding = unit(0,"lines"),
+    label.colour = NA
+  ) +
   
   scale_x_continuous(breaks = c(seq(0,14,1),seq(15,60,5)),
     expand = expansion(mult = c(0.03,0.05))) +
@@ -130,12 +154,12 @@ ggplot() +
   theme_bw(base_size = 18,
            base_family = "Barlow Condensed") +
   theme(axis.title = element_blank(),
-        axis.text.y = element_markdown(color = "gray10"),
+        axis.text.y = element_markdown(family = "Barlow Condensed Medium",color = "gray10"),
         #axis.ticks.y = element_blank(),
         plot.caption = element_markdown(lineheight = 1.3),
         panel.grid.major = element_line(color = alpha("gray80",.5), linewidth = 0.2, linetype = "dashed"),
         panel.grid.minor = element_line(color = "white", linewidth = 0.2),
-        axis.text.x = element_markdown(size = 16, color = "black"),
+        axis.text.x = element_markdown(family = "Barlow Condensed Medium",size = 16, color = "black"),
         plot.title = element_markdown(family = "Barlow Condensed Medium", size = 28),
         plot.subtitle = element_markdown(family = "Carrois Gothic", size = 16, color = "#333333", lineheight = 1.3),
         plot.margin = margin(5,5,5,5)
@@ -145,14 +169,14 @@ ggplot() +
 
 # saving ----
 
-file <- here("brlist-amphibians","figures","amphibians_redlist.pdf") 
+file <- here("amphibians-descriptions","figures","amphibians_desc.pdf") 
 
 
 ggsave(file,
        device = cairo_pdf,
        dpi = 300,
        bg = "white",
-       width = 12,
+       width = 16,
        height = 9,
        units = c("in")
 )
