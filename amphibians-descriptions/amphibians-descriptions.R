@@ -189,7 +189,7 @@ ggplot() +
   ) +
   # ------------------ PLOT TEXT INFO ------------------------
   geom_richtext(
-    aes(x = 58, y = 17, label = "Quanto tempo leva...?"),
+    aes(x = 58, y = 16.5, label = "Quanto tempo leva...?"),
     family = "Flotta",
     size = 14,
     fill = NA,
