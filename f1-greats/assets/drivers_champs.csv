@@ -1,0 +1,76 @@
+year,driver,age,chassis,engine,tyres,poles,wins,podiums,fastest_lap,points,pct_points,clinched,races_remaining,margin,pct_margin
+,,,,,,,,,,,,,,,
+1950,  Giuseppe Farina[20],44,Alfa Romeo,Alfa Romeo,P,2,3,3,3,30,83.333 (47.619),Race 7 of 7,0,3,10
+1951,  Juan Manuel Fangio[21],40,Alfa Romeo,Alfa Romeo,P,4,3,5,5,31,86.111 (51.389),Race 8 of 8,0,6,19.355
+1952[a],  Alberto Ascari[23],34,Ferrari,Ferrari,F P,5,6,6,6,36,100.000 (74.306),Race 6 of 8,2,12,33.333
+1953[a],  Alberto Ascari[23],35,Ferrari,Ferrari,P,6,5,5,4,34.5,95.833 (57.764),Race 8 of 9,1,6.5,18.841
+1954,  Juan Manuel Fangio[21],43,Maserati[b],Maserati,P,5,6,7,3,42,93.333 (70.547),Race 7 of 9,2,16.857,40.136
+,,,Mercedes[b],Mercedes,C,,,,,,,,,,
+1955,  Juan Manuel Fangio[21],44,Mercedes,Mercedes,C,3,4,5,3,40,88.889 (65.079),Race 6 of 7,1,16.5,41.25
+1956,  Juan Manuel Fangio[21],45,Ferrari,Ferrari,E,6,3,5,4,30,66.667 (45.833),Race 8 of 8,0,3,10
+1957,  Juan Manuel Fangio[21],46,Maserati,Maserati,P,4,4,6,2,40,88.889 (63.889),Race 6 of 8,2,15,37.5
+1958,  Mike Hawthorn[24],29,Ferrari,Ferrari,E,4,1,7,5,42,77.778 (49.495),Race 11 of 11,0,1,2.381
+1959,  Jack Brabham[25],33,Cooper,Climax,D,1,2,5,1,31,68.889 (41.975),Race 9 of 9,0,4,12.903
+1960,  Jack Brabham[25],34,Cooper,Climax,D,3,5,5,3,43,89.583 (53.750),Race 8 of 10,2,9,20.93
+1961,  Phil Hill[26],34,Ferrari,Ferrari,D,5,2,6,2,34,75.556 (52.778),Race 7 of 8,1,1,2.941
+1962,  Graham Hill[27],33,BRM,BRM,D,1,4,6,3,42,93.333 (64.198),Race 9 of 9,0,12,28.571
+1963,  Jim Clark[28],27,Lotus,Climax,D,7,7,9,6,54,100.000 (81.111),Race 7 of 10,3,21,38.889
+1964,  John Surtees[29],30,Ferrari,Ferrari,D,2,2,6,2,40,74.074 (44.444),Race 10 of 10,0,1,2.5
+1965,  Jim Clark[28],29,Lotus,Climax,D,6,6,6,6,54,100.000 (60.000),Race 7 of 10,3,14,25.926
+1966,  Jack Brabham[25],40,Brabham,Repco,G,3,4,5,1,42,93.333 (55.556),Race 7 of 9,2,14,33.333
+1967,  Denny Hulme[30],31,Brabham,Repco,G,0,2,8,2,51,62.963 (51.515),Race 11 of 11,0,5,9.804
+1968,  Graham Hill[27],39,Lotus,Ford,F,2,3,6,0,48,53.333 (44.444),Race 12 of 12,0,12,25
+1969,  Jackie Stewart[31],30,Matra,Ford,D,2,6,7,5,63,77.778 (63.636),Race 8 of 11,3,26,41.27
+1970,  Jochen Rindt[32],28,Lotus,Ford,F,3,5,5,1,45,45.455 (38.462),Race 12 of 13[c],1,5,11.111
+1971,  Jackie Stewart[31],32,Tyrrell,Ford,G,6,6,7,3,62,76.543 (62.626),Race 8 of 11,3,29,46.774
+1972,  Emerson Fittipaldi[33],25,Lotus,Ford,F,3,5,8,0,61,67.778 (56.481),Race 10 of 12,2,16,26.23
+1973,  Jackie Stewart[31],34,Tyrrell,Ford,G,3,5,8,1,71,60.684 (52.593),Race 13 of 15,2,16,22.535
+1974,  Emerson Fittipaldi[33],27,McLaren,Ford,G,2,3,7,0,55,47.009 (40.741),Race 15 of 15,0,3,5.455
+1975,  Niki Lauda[34],26,Ferrari,Ferrari,G,9,5,8,2,64.5,59.722 (51.190),Race 13 of 14,1,19.5,30.233
+1976,  James Hunt[35],29,McLaren,Ford,G,8,6,8,2,69,54.762 (47.917),Race 16 of 16,0,1,1.449
+1977,  Niki Lauda[34],28,Ferrari,Ferrari,G,2,3,10,3,72,53.333 (47.059),Race 15 of 17,2,17,23.611
+1978,  Mario Andretti[36],38,Lotus,Ford,G,8,6,7,3,64,50.794 (44.444),Race 14 of 16,2,13,20.313
+1979,  Jody Scheckter[37],29,Ferrari,Ferrari,M,1,3,6,0,51,70.833 (44.444),Race 13 of 15,2,4,7.843
+1980,  Alan Jones[38],34,Williams,Ford,G,3,5,10,5,67,74.444 (56.349),Race 13 of 14,1,13,19.403
+1981,  Nelson Piquet[39],29,Brabham,Ford,M G,4,3,7,1,50,50.505 (37.037),Race 15 of 15,0,1,2
+1982,  Keke Rosberg[40],34,Williams,Ford,G,1,1,6,0,44,44.444 (30.556),Race 16 of 16,0,5,11.364
+1983,  Nelson Piquet[39],31,Brabham,BMW,M,1,3,8,4,59,59.596 (43.704),Race 15 of 15,0,2,3.39
+1984,  Niki Lauda[34],35,McLaren,TAG,M,0,5,9,5,72,72.727 (50.000),Race 16 of 16,0,0.5,0.694
+1985,  Alain Prost[41],30,McLaren,TAG,G,2,5,11,5,73,73.737 (52.778),Race 14 of 16,2,20,27.397
+1986,  Alain Prost[41],31,McLaren,TAG,G,1,4,11,2,72,72.727 (51.389),Race 16 of 16,0,2,2.778
+1987,  Nelson Piquet[39],35,Williams,Honda,G,4,3,11,4,73,73.737 (52.778),Race 15 of 16,1,12,16.438
+1988,  Ayrton Senna[42],28,McLaren,Honda,G,13,8,11,3,90,90.909 (65.278),Race 15 of 16,1,3,3.333
+1989,  Alain Prost[41],34,McLaren,Honda,G,2,4,11,5,76,76.768 (56.250),Race 15 of 16,1,16,21.053
+1990,  Ayrton Senna[42],30,McLaren,Honda,G,10,6,11,2,78,78.788 (54.167),Race 15 of 16,1,7,8.974
+1991,  Ayrton Senna[42],31,McLaren,Honda,G,8,7,12,2,96,61.935,Race 15 of 16,1,24,25
+1992,  Nigel Mansell[43],39,Williams,Renault,G,14,9,12,8,108,67.5,Race 11 of 16,5,52,48.148
+1993,  Alain Prost[41],38,Williams,Renault,G,13,7,12,6,99,61.875,Race 14 of 16,2,26,26.263
+1994,  Michael Schumacher[44],25,Benetton,Ford,G,6,8,10,8,92,57.5,Race 16 of 16,0,1,1.087
+1995,  Michael Schumacher[44],26,Benetton,Renault,G,4,9,11,8,102,63.75,Race 15 of 17,2,33,32.353
+1996,  Damon Hill[45],36,Williams,Renault,G,9,8,10,5,97,60.625,Race 16 of 16,0,19,19.588
+1997,  Jacques Villeneuve[46],26,Williams,Renault,G,10,7,8,3,81,47.647,Race 17 of 17,0,39[d],48.148[d]
+1998,  Mika HÃ¤kkinen[48],30,McLaren,Mercedes,B,9,8,11,6,100,62.5,Race 16 of 16,0,14,14
+1999,  Mika HÃ¤kkinen[48],31,McLaren,Mercedes,B,11,5,10,6,76,47.5,Race 16 of 16,0,2,2.632
+2000,  Michael Schumacher[44],31,Ferrari,Ferrari,B,9,9,12,2,108,63.529,Race 16 of 17,1,19,17.593
+2001,  Michael Schumacher[44],32,Ferrari,Ferrari,B,11,9,14,3,123,72.353,Race 13 of 17,4,58,47.154
+2002,  Michael Schumacher[44],33,Ferrari,Ferrari,B,7,11,17,7,144,84.706,Race 11 of 17,6,67,46.528
+2003,  Michael Schumacher[44],34,Ferrari,Ferrari,B,5,6,8,5,93,58.125,Race 16 of 16,0,2,2.151
+2004,  Michael Schumacher[44],35,Ferrari,Ferrari,B,8,13,15,10,148,82.222,Race 14 of 18,4,34,22.973
+2005,  Fernando Alonso[49],24,Renault,Renault,M,6,7,15,2,133,70,Race 17 of 19,2,21,15.789
+2006,  Fernando Alonso[49],25,Renault,Renault,M,6,7,14,5,134,74.444,Race 18 of 18,0,13,9.701
+2007,  Kimi RÃ¤ikkÃ¶nen[50],28,Ferrari,Ferrari,B,3,6,12,6,110,64.706,Race 17 of 17,0,1,0.909
+2008,  Lewis Hamilton[51],23,McLaren,Mercedes,B,7,5,10,1,98,54.444,Race 18 of 18,0,1,1.02
+2009,  Jenson Button[52],29,Brawn,Mercedes,B,4,6,9,2,95,55.882,Race 16 of 17,1,11,11.579
+2010,  Sebastian Vettel[53],23,Red Bull,Renault,B,10,5,10,3,256,53.895,Race 19 of 19,0,4,1.563
+2011,  Sebastian Vettel[53],24,Red Bull,Renault,P,15,11,17,3,392,82.526,Race 15 of 19,4,122,31.122
+2012,  Sebastian Vettel[53],25,Red Bull,Renault,P,6,5,10,6,281,56.2,Race 20 of 20,0,3,1.068
+2013,  Sebastian Vettel[53],26,Red Bull,Renault,P,9,13,16,7,397,83.579,Race 16 of 19,3,155,39.043
+2014,  Lewis Hamilton[51],29,Mercedes,Mercedes,P,7,11,16,7,384,76.8,Race 19 of 19,0,67,17.448
+2015,  Lewis Hamilton[51],30,Mercedes,Mercedes,P,11,10,17,8,381,80.211,Race 16 of 19,3,59,15.486
+2016,  Nico Rosberg[54],31,Mercedes,Mercedes,P,8,9,16,6,385,73.333,Race 21 of 21,0,5,1.299
+2017,  Lewis Hamilton[51],32,Mercedes,Mercedes,P,11,9,13,7,363,72.6,Race 18 of 20,2,46,12.672
+2018,  Lewis Hamilton[51],33,Mercedes,Mercedes,P,11,11,17,3,408,77.714,Race 19 of 21,2,88,21.569
+2019,  Lewis Hamilton[51],34,Mercedes,Mercedes,P,5,11,17,6,413,75.641,Race 19 of 21,2,87,21.065
+2020,  Lewis Hamilton[51],35,Mercedes,Mercedes,P,10,11,14,6,347,78.507,Race 14 of 17,3,124,35.735
+2021,  Max Verstappen[55],24,Red Bull,Honda,P,10,10,18,6,395.5,69.692,Race 22 of 22,0,8,2.023
+2022,  Max Verstappen[55],25,Red Bull,RBPT,P,7,15,17,5,454,76.174,Race 18 of 22,4,146,32.159
