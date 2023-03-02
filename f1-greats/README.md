@@ -1,5 +1,6 @@
 # G.O.A.T.s Clashing
 
+![](https://raw.githubusercontent.com/paulobarros/dataviz/main/f1-greats/figures/f1-greats.png) Tools: *ggplot2* *GIMP*
 
 
 *Disclaimer*: There was a weird white margin on the plot, even after removing on code, so I cropped out on th PNG file using GIMP. Could not find a way to do it in R.
