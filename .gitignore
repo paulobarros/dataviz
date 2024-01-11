@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 dataviz.Rproj
+*.code-workspace
